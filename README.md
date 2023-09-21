@@ -33,7 +33,7 @@ First make sure to set all the 7-seg displays to (0xff if Active low) or (0x00 i
 
 ---
 
-**To add more characters to the toll**
+**To add more characters to the tool**
 
 ```
 Step 1) Add the characters to dictionary_AZt07seg 
@@ -57,7 +57,7 @@ ______________ | __________________
 |       |      |     0       0
     _          |         0
 |       |      |     0       0
-    _       .  |         1       1    
+               |         1       1    
 
     
 Step 2) Add the new character to the character_list string
