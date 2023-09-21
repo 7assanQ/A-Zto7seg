@@ -10,8 +10,13 @@ To see the code [A-Zto7seg.py](A-Zto7seg.py)
 
 ---
 
+- Start
 ![Toolicon2](assets/start.png)
+
+- Option 2
 ![Toolicon3](assets/option2.png)
+
+- Enter A
 ![Toolicon3](assets/enter_A.png)
 
 - To use these tools
@@ -30,6 +35,7 @@ First make sure to set all the 7-seg displays to (0xff if Active low) or (0x00 i
 
 **To add more characters to the toll**
 
+```
 Step 1) Add the characters to dictionary_AZt07seg 
 
 - This is how the (key : value) is formated.
@@ -55,7 +61,7 @@ ______________ | __________________
 
     
 Step 2) Add the new character to the character_list string
-
+```
 ---
 
 # Libraries needed for running the source code A-Zto7seg.py
